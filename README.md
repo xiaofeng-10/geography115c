@@ -1,10 +1,9 @@
 # geography115c
 
 ## satellite_imagery_on_predicting_burn_severity
-- Gathered remote sensing data related to fire, and pre-processed raw data needed to calculate NBR, NDVI, and BAI
-- Separated the four study areas, cropped and masked raw data with QGIS, used R to process spatial data, reproject coordinate, and resample to match resolution
-- Built a linear regression models to analyze the relationship between NBR, NDVI, BAI, and fire severity for each study areas
-- Analyzed the generated images and compare the performance of different flammability indices across the study areas to assess their ability to express fire severity
+- Gathered remote sensing data related to fire and pre-processed large amounts of raw data, including cropping and masking with QGIS, using R to process spatial data, reproject coordinates, and resample to match resolution.
+- Built linear regression models to analyze the relationship between NBR, NDVI, BAI, and fire severity across study areas.
+- Evaluated the performance of flammability indices to assess their ability in predicting fire severity, identifying NBR as the best predictor among the three.
 
 ## lab_3: Remote Sensing and GIS Integration in R
 Imported shapefiles into R and used them to analyze different parts of an image. Applied skills such as extracting values from regions of interest and analyzing these values using mathematical and statistical functions
